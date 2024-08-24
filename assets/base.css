@@ -88,8 +88,8 @@
 
 .page-width {
   max-width: 1355px;
-  margin-left: 32px;
-  margin-right: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
