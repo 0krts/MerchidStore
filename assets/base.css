@@ -88,8 +88,8 @@
 
 .page-width {
   max-width: none;
-  margin-left: 1.625rem;
-  margin-right: 1.625rem;
+  margin-left: 26px;
+  margin-right: 26px;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
