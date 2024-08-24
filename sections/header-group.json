@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free designs within 24 hours",
+            "text": "Free design & mock-ups within 24 hours",
             "link": ""
           }
         },
@@ -35,7 +35,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "show_social": false,
         "auto_rotate": true,
         "change_slides_speed": 5,
