@@ -276,16 +276,15 @@
 
 <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
   Cart
-  <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
   {%- if cart != empty -%}
-    <div class="cart-count-bubble">
+    <div class="cart-count-bubble" style="display: inline-block; margin-left: 8px;">
       {%- if cart.item_count < 100 -%}
         <span aria-hidden="true">{{ cart.item_count }}</span>
       {%- endif -%}
       <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
     </div>
   {%- endif -%}
-</a>
+  <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
       </a>
     </div>
   </header>
