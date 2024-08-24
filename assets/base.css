@@ -87,9 +87,9 @@
 /* base */
 
 .page-width {
-  max-width: var(--page-width);
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  max-width: none;
+  margin-left: 1.625rem;
+  margin-right: 1.625rem;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
