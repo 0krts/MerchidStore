@@ -10,9 +10,9 @@
 
 @font-face {
   font-family: 'ClashDisplay-Medium';
-  src: url('{{ 'ClashDisplay-Medium.woff2' | file_url }}') format('woff2'),
-       url('{{ 'ClashDisplay-Medium.woff' | file_url }}') format('woff'),
-       url('{{ 'ClashDisplay-Medium.ttf' | file_url }}') format('truetype');
+  src: url("./ClashDisplay-Medium.woff2") format('woff2'),
+       url("./ClashDisplay-Medium.woff") format('woff'),
+       url("./ClashDisplay-Medium.ttf") format('truetype');
   font-weight: 500;
   font-display: swap;
   font-style: normal;
