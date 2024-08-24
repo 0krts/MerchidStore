@@ -289,9 +289,21 @@ document.addEventListener('DOMContentLoaded', function() {
   const cartIconBubble = document.getElementById('cart-icon-bubble');
   
   function replaceCartIconWithText() {
-      // Check if the icon exists and if the cart is empty
-      if (cartIconBubble && !document.querySelector('.cart-count-bubble')) {
-          cartIconBubble.innerHTML = 'Cart';
+      if (cartIconBubble) {
+          // Ensure "Cart" text is always present
+          let cartText = cartIconBubble.querySelector('.cart-text');
+          if (!cartText) {
+              cartText = document.createElement('span');
+              cartText.className = 'cart-text';
+              cartText.textContent = 'Cart';
+              cartIconBubble.insertBefore(cartText, cartIconBubble.firstChild);
+          }
+          
+          // Handle the cart count bubble
+          const cartCountBubble = cartIconBubble.querySelector('.cart-count-bubble');
+          if (cartCountBubble) {
+              cartIconBubble.appendChild(cartCountBubble); // Ensure it's placed correctly
+          }
       }
   }
 
