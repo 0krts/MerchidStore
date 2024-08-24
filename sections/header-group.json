@@ -17,22 +17,30 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Free designs within 24 hours",
+            "link": ""
+          }
+        },
+        "announcement_8Db3DW": {
+          "type": "announcement",
+          "settings": {
+            "text": "Customers rate us a 4.9",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_8Db3DW"
       ],
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "enable_country_selector": true,
+        "enable_language_selector": true
       }
     },
     "header": {
@@ -45,8 +53,8 @@
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "enable_customer_avatar": true,
         "mobile_logo_position": "left",
         "margin_bottom": 0,
