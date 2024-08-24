@@ -2059,7 +2059,7 @@ input[type='checkbox'] {
 
 .cart-count-bubble {
    display: inline-block;
-   margin-left: 30px; /* Adjust the space between text and bubble */
+   margin-left: 10px; /* Adjust the space between text and bubble */
    background-color: #ff0000; /* Customize the background color */
    color: #fff; /* Customize the text color */
    border-radius: 50%;
