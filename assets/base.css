@@ -88,8 +88,8 @@
 
 .page-width {
   max-width: 1355px;
-  margin-left: 26px;
-  margin-right: 26px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
@@ -136,8 +136,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   .page-width--narrow {
