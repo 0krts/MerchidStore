@@ -284,3 +284,20 @@ if (!customElements.get('cart-note')) {
     }
   );
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const cartIconBubble = document.getElementById('cart-icon-bubble');
+  
+  function replaceCartIconWithText() {
+      // Check if the icon exists and if the cart is empty
+      if (cartIconBubble && !document.querySelector('.cart-count-bubble')) {
+          cartIconBubble.innerHTML = 'Cart';
+      }
+  }
+
+  // Replace the icon with text when the page loads
+  replaceCartIconWithText();
+
+  // Replace the icon with text when the cart is updated dynamically
+  document.addEventListener('cart:updated', replaceCartIconWithText);
+});
