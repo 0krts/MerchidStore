@@ -87,7 +87,7 @@
 /* base */
 
 .page-width {
-  max-width: 1355px;
+  max-width: none;
   padding-right: 16px;
   padding-left: 16px;
 }
