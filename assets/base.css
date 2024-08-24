@@ -2438,8 +2438,7 @@ input[type='checkbox'] {
 }
 
 .header-wrapper--border-bottom {
-    border-bottom: .1rem solid rgb(0 0 0 / 1);
-
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
 .header {
