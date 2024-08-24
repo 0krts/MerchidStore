@@ -284,32 +284,3 @@ if (!customElements.get('cart-note')) {
     }
   );
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  const cartIconBubble = document.getElementById('cart-icon-bubble');
-  
-  function replaceCartIconWithText() {
-      if (cartIconBubble) {
-          // Ensure "Cart" text is always present
-          let cartText = cartIconBubble.querySelector('.cart-text');
-          if (!cartText) {
-              cartText = document.createElement('span');
-              cartText.className = 'cart-text';
-              cartText.textContent = 'Cart';
-              cartIconBubble.insertBefore(cartText, cartIconBubble.firstChild);
-          }
-          
-          // Handle the cart count bubble
-          const cartCountBubble = cartIconBubble.querySelector('.cart-count-bubble');
-          if (cartCountBubble) {
-              cartIconBubble.appendChild(cartCountBubble); // Ensure it's placed correctly
-          }
-      }
-  }
-
-  // Replace the icon with text when the page loads
-  replaceCartIconWithText();
-
-  // Replace the icon with text when the cart is updated dynamically
-  document.addEventListener('cart:updated', replaceCartIconWithText);
-});
