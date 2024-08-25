@@ -2174,14 +2174,14 @@ input[type='checkbox'] {
   background-color: #fff;
   color: #dd6013;
   border-radius: 50%;
-  padding: 2px 6px;
+  width: 20px; /* Set a fixed width */
+  height: 20px; /* Set a fixed height */
   font-size: 14px;
   text-align: center;
-  min-width: 20px;
-  height: 20px;
-  line-height: 20px;
-
+  line-height: 20px; /* Vertically center the text */
+  padding: 0; /* Remove padding */
 }
+
 
 /* utility-bar */
 .utility-bar {
