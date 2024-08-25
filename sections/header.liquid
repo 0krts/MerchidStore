@@ -14,11 +14,12 @@
 
 <style>
   header-drawer {
-position: absolute; /* or fixed */
-    left: 16px; /* Aligns it with the header's padding */
-    right: 16px; /* Keeps the right side consistent if necessary */
-    width: calc(100% - 32px); /* Adjust width to account for padding on both sides */
-    box-sizing: border-box; /* Ensures the padding is considered in the total width */
+position: absolute; /* Keep its absolute position */
+    left: 16px; /* Align with the header's left padding */
+    transform: translateX(-16px); /* Adjust the position to account for the header's padding */
+    width: calc(100% - 16px); /* Ensure it takes up the correct width */
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
 }
 
   }
