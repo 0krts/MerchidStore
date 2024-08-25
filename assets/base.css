@@ -2630,8 +2630,8 @@ border-bottom: 1px solid black !important;
 @media screen and (min-width: 768px) {
   .cart-container {
     height: calc(100% + 52px); /* Adjusting height for 26px padding */
-    margin-top: -26px; /* Compensate for the top padding */
-    margin-bottom: -26px; /* Compensate for the bottom padding */
+    margin-top: -20px; /* Compensate for the top padding */
+    margin-bottom: -20px; /* Compensate for the bottom padding */
     padding: 0 26px; /* Adjust padding on the sides */
   }
 }
