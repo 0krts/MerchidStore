@@ -2171,24 +2171,15 @@ input[type='checkbox'] {
 .cart-count-bubble {
   display: inline-block;
   margin-left: 5px;
-  /* Adjust the space between text and bubble */
-  background-color: #000;
-  /* Customize the background color */
-  color: #fff;
-  /* Customize the text color */
+  background-color: #fff;
+  color: #000;
   border-radius: 50%;
   padding: 2px 6px;
-  /* Adjust the padding to make the bubble round */
   font-size: 12px;
-  /* Adjust font size if necessary */
   text-align: center;
-  /* Center the number within the bubble */
   min-width: 20px;
-  /* Ensure the bubble is wide enough */
   height: 20px;
-  /* Make the height equal to the width */
   line-height: 20px;
-  /* Vertically center the text */
 
 }
 
