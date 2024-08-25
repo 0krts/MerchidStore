@@ -2447,17 +2447,22 @@ border-bottom: 1px solid black;
 }
 
 /* Main Header Layout */
+/* Default styles for larger screens */
 .header-wrapper {
-    background-color: rgba(255, 255, 255, 0.8);
-    will-change: backdrop-filter; /* Hint to the browser about what will change */
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
 }
 
-@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+/* Override styles for mobile screens (max-width: 750px) */
+@media screen and (max-width: 750px) {
     .header-wrapper {
-        backdrop-filter: blur(80px);
-        -webkit-backdrop-filter: blur(80px);
+        backdrop-filter: none; /* Remove blur effect */
+        -webkit-backdrop-filter: none; /* Remove blur effect */
+        background-color: #fff; /* Set a solid white background */
     }
 }
+
 
 
 .header-wrapper--border-bottom {
