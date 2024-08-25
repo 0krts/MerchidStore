@@ -2810,6 +2810,7 @@ details[open]>.header__icon--menu .icon-hamburger {
   visibility: hidden;
   opacity: 0;
   transform: scale(0.8);
+  position: absolute;
 }
 
 .js details[open]:not(.menu-opening)>.header__icon--menu .icon-close {
