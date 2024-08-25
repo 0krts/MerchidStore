@@ -2187,11 +2187,11 @@ input[type='checkbox'] {
 .utility-bar {
   height: 100%;
 }
-
+/*
 .utility-bar--bottom-border {
 border-bottom: 1px solid black;
 }
-
+*/
 @media screen and (min-width: 990px) {
   .utility-bar--bottom-border-social-only {
     border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
@@ -2443,7 +2443,10 @@ border-bottom: 1px solid black;
 }
 
 .header-wrapper--border-bottom {
-   border-bottom: 0.1rem solid rgba(var(--color-foreground),1) !important;
+
+border-top: 1px solid black !important;
+border-bottom: 1px solid black !important;
+
 }
 
 .header {
