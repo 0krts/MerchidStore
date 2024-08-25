@@ -2916,7 +2916,7 @@ details[open]>.header__submenu {
 }
 
 .header__menu-item {
-  padding: 3rem;
+  padding-right: 3rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }
