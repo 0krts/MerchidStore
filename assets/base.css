@@ -2439,8 +2439,8 @@ border-bottom: 1px solid black;
 .header-wrapper {
   display: block;
   position: relative;
- backdrop-filter: blur(10px); /* Applies a 10px blur to the background of the header */
-    -webkit-backdrop-filter: blur(10px); /* Ensures compatibility with Safari */
+ backdrop-filter: blur(80px); /* Applies a 10px blur to the background of the header */
+    -webkit-backdrop-filter: blur(80px); /* Ensures compatibility with Safari */
     background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent background to enhance the blur effect */
 }
 
