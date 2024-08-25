@@ -2627,7 +2627,7 @@ border-bottom: 1px solid black !important;
 }
 
 /* Styling for tablets and desktops */
-@media screen and (min-width: 750x) {
+@media screen and (min-width: 750px) {
 .header__icons {
     height: calc(100% + 72px); /* Adjusting height for 26px padding */
     margin-top: -20px; /* Compensate for the top padding */
