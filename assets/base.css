@@ -2438,7 +2438,6 @@ border-bottom: 1px solid black;
 
 /* Main Header Layout */
 .header-wrapper {
-  display: block;
   position: relative;
   backdrop-filter: blur(80px); /* Applies a 10px blur to the background of the header */
   -webkit-backdrop-filter: blur(80px); /* Ensures compatibility with Safari */
