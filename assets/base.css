@@ -2438,23 +2438,16 @@ border-bottom: 1px solid black;
 /* Main Header Layout */
 .header-wrapper {
 
-display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Applies the blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Ensures compatibility with Safari */
-    position: relative; /* Ensure it stays in place */
-    z-index: 10; /* Make sure it’s above other content */
-    border-bottom: 1px solid black !important; /* Add the bottom border */
-    box-sizing: border-box; /* Ensure padding and border are included in the element's dimensions */
+  position: relative;
+ backdrop-filter: blur(80px); /* Applies a 10px blur to the background of the header */
+    -webkit-backdrop-filter: blur(80px); /* Ensures compatibility with Safari */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent background to enhance the blur effect */
+border-bottom: 1px solid black !important;
 }
 
 .header-wrapper--border-bottom {
 
 /*border-top: 1px solid black !important;*/
-border-bottom: 1px solid black !important;
 
 }
 
