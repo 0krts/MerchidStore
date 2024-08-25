@@ -2448,7 +2448,8 @@ border-bottom: 1px solid black;
 
 /* Main Header Layout */
 .header-wrapper {
-    background-color: rgba(255, 255, 255, 0.8); /* Fallback background */
+    background-color: rgba(255, 255, 255, 0.8);
+    will-change: backdrop-filter; /* Hint to the browser about what will change */
 }
 
 @supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
