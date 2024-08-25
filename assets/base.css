@@ -2653,7 +2653,7 @@ input[type='checkbox'] {
 
 .header__icon--cart {
   position: relative;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
