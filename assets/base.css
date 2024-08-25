@@ -2603,6 +2603,7 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  padding-right: 0.8rem;
 }
 
 .header__icons .shopify-app-block {
@@ -2800,7 +2801,7 @@ details[open] .modal-overlay::after {
 /* Header menu drawer */
 .header__icon--menu .icon {
   display: block;
-  position: inherit;
+  position: absolute;
   opacity: 1;
   transform: scale(1);
   transition: transform 150ms ease, opacity 150ms ease;
@@ -2811,7 +2812,6 @@ details[open]>.header__icon--menu .icon-hamburger {
   visibility: hidden;
   opacity: 0;
   transform: scale(0.8);
-  position: absolute;
 }
 
 .js details[open]:not(.menu-opening)>.header__icon--menu .icon-close {
