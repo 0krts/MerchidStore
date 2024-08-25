@@ -2597,13 +2597,30 @@ input[type='checkbox'] {
     text-align: center;
   }
 }
+/*
 
-/* Header icons */
 .header__icons {
   display: flex;
   grid-area: icons;
   justify-self: end;
 }
+*/
+
+.header__icons {
+    display: flex;
+    grid-area: icons;
+    justify-self: end;
+    background-color: #DD6013;
+    height: calc(100% + 20px);
+    margin-top: -16px;
+    margin-bottom: -16px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    margin-right: -16px;
+    border-left: 1px solid black;
+}
+
 
 .header__icons .shopify-app-block {
   max-width: 4.4rem;
