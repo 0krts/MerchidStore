@@ -154,13 +154,13 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     padding-right: 26px;
     border-bottom: 1px solid black !important;
   }
+} /* Close the media query properly */
 
 @media screen and (max-width: 750px) {
     .header:not(.drawer-menu).page-width {
         border-bottom: 1px solid black !important;
     }
 }
-
 
 
   .page-width--narrow {
