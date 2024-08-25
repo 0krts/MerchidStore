@@ -155,6 +155,14 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     border-bottom: 1px solid black !important;
   }
 
+@media screen and (max-width: 750px) {
+    .header:not(.drawer-menu).page-width {
+        border-bottom: 1px solid black !important;
+    }
+}
+
+
+
   .page-width--narrow {
     max-width: 72.6rem;
     padding: 0;
