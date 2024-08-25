@@ -2457,13 +2457,11 @@ border-bottom: 1px solid black;
 /* Override styles for mobile screens (max-width: 750px) */
 @media screen and (max-width: 750px) {
     .header-wrapper {
-        backdrop-filter: none; /* Remove blur effect */
-        -webkit-backdrop-filter: none; /* Remove blur effect */
-        background-color: #fff; /* Set a solid white background */
+        backdrop-filter: none !important; /* Ensure blur effect is removed */
+        -webkit-backdrop-filter: none !important; /* Ensure blur effect is removed */
+        background-color: #fff !important; /* Ensure solid background is applied */
     }
 }
-
-
 
 .header-wrapper--border-bottom {
 
