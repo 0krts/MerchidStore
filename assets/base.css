@@ -2457,6 +2457,7 @@ border-bottom: 1px solid black;
 /* Override styles for mobile screens (max-width: 750px) */
 @media screen and (max-width: 750px) {
     .header-wrapper {
+        display: block;
         background-color: #fff !important; /* Ensure solid background is applied */
     }
 }
