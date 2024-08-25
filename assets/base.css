@@ -2452,29 +2452,11 @@ border-bottom: 1px solid black;
 }
 
 .header {
-    position: relative; /* Ensure the header is positioned relative to allow pseudo-element positioning */
-    display: block; /* Use display block */
-    padding: 16px 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
-    border-bottom: 1px solid black; /* Add the bottom border */
-    box-sizing: border-box; /* Include padding and border in the element's width and height */
-    z-index: 1; /* Ensure header content is above the pseudo-element */
+  display: grid;
+  grid-template-areas: 'left-icons heading icons';
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
 }
-
-.header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    backdrop-filter: blur(10px); /* Apply the blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
-    z-index: -1; /* Ensure the pseudo-element is behind the header content */
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Ensures consistent background color */
-    pointer-events: none; /* Prevents the pseudo-element from blocking interactions with header content */
-}
-
 
 @media screen and (max-width: 749px) {
   .header--has-app {
