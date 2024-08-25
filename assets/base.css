@@ -152,6 +152,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   .header:not(.drawer-menu).page-width {
     padding-left: 26px;
     padding-right: 26px;
+    border-bottom: 1px solid black !important;
   }
 
   .page-width--narrow {
@@ -2442,7 +2443,6 @@ border-bottom: 1px solid black;
   backdrop-filter: blur(80px); /* Applies a 10px blur to the background of the header */
   -webkit-backdrop-filter: blur(80px); /* Ensures compatibility with Safari */
   background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent background to enhance the blur effect */
-  border-bottom: 1px solid black !important;
 }
 
 .header-wrapper--border-bottom {
