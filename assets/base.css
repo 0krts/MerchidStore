@@ -2629,7 +2629,7 @@ border-bottom: 1px solid black !important;
 /* Styling for tablets and desktops */
 @media screen and (min-width: 750px) {
 .header__icons {
-    height: calc(100% + 72px); /* Adjusting height for 26px padding */
+    height: calc(100% + 38px); /* Adjusting height for 26px padding */
     margin-top: -20px; /* Compensate for the top padding */
     margin-bottom: -20px; /* Compensate for the bottom padding */
     padding: 0 26px; /* Adjust padding on the sides */
